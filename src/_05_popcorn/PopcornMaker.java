@@ -9,12 +9,14 @@ public class PopcornMaker {
 String flavor = JOptionPane.showInputDialog("What flavor popcorn do you want");
 String timeAsString = JOptionPane.showInputDialog("How long do you want to pop your popcorn");
 int time = Integer.parseInt(timeAsString);
+//int time = Integer.parseInt(timeAsString);
 Popcorn popcorn = new Popcorn("flavor");
 Microwave microwave = new Microwave();
 microwave.putInMicrowave(popcorn);
 microwave.setTime(time);
 microwave.startMicrowave();
 popcorn.applyHeat();
+popcorn.eat();
 	}
 
 }
