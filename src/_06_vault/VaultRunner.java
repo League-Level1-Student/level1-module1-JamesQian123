@@ -6,7 +6,10 @@ public class VaultRunner {
 		// TODO Auto-generated method stub
 		Vault vault = new Vault();
 		for(int i = 0; i<1000000;i++ ) {
-			vault.tryCode(i);
+			boolean hi = vault.tryCode(i);
+			if(vault.tryCode(i)) {
+				System.out.println(i);
+			}
 		}
 	}
 
