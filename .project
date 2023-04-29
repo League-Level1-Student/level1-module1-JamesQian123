@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/_11_binary_converter/sketch_230429a.pde</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Documents/Processing/sketch_230429a/sketch_230429a.pde</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
